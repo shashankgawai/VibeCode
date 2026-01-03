@@ -68,7 +68,7 @@ export default function Services() {
     <section
       id="services"
       ref={sectionRef}
-      className="py-24 bg-gradient-to-br from-[var(--cream-bg)] to-white"
+      className="py-24 bg-gradient-to-br from-[var(--white-bg)] to-white"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
@@ -84,12 +84,12 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className={`bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 border border-[var(--sage-light)]/20 ${
+              className={`bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 border border-[var(--light-blue)]/20 ${
                 isVisible ? 'animate-item-reveal' : 'opacity-0'
               }`}
               style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <div className="text-[var(--sage-green)] mb-6">
+              <div className="text-[var(--royal-blue)] mb-6">
                 {service.icon}
               </div>
               <h3 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-[var(--text-dark)] mb-4">

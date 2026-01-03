@@ -38,14 +38,14 @@ export default function Gallery() {
   ];
 
   const gradients = [
-    'from-[var(--sage-green)] to-[var(--sage-light)]',
-    'from-[var(--accent-gold)] to-[var(--sage-light)]',
-    'from-[var(--sage-light)] to-[var(--sage-green)]',
-    'from-[var(--sage-dark)] to-[var(--sage-green)]',
-    'from-[var(--sage-green)] to-[var(--accent-gold)]',
-    'from-[var(--accent-gold)] to-[var(--sage-dark)]',
-    'from-[var(--sage-light)] to-[var(--accent-gold)]',
-    'from-[var(--sage-dark)] to-[var(--sage-light)]',
+    'from-[var(--royal-blue)] to-[var(--light-blue)]',
+    'from-[var(--accent-gold)] to-[var(--light-blue)]',
+    'from-[var(--light-blue)] to-[var(--royal-blue)]',
+    'from-[var(--luxury-blue)] to-[var(--royal-blue)]',
+    'from-[var(--royal-blue)] to-[var(--accent-gold)]',
+    'from-[var(--accent-gold)] to-[var(--luxury-blue)]',
+    'from-[var(--light-blue)] to-[var(--accent-gold)]',
+    'from-[var(--luxury-blue)] to-[var(--light-blue)]',
   ];
 
   return (
@@ -115,7 +115,7 @@ export default function Gallery() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
-          <div className="max-w-4xl w-full aspect-[4/3] bg-gradient-to-br from-[var(--sage-green)] to-[var(--sage-light)] rounded-lg"></div>
+          <div className="max-w-4xl w-full aspect-[4/3] bg-gradient-to-br from-[var(--royal-blue)] to-[var(--light-blue)] rounded-lg"></div>
         </div>
       )}
     </section>

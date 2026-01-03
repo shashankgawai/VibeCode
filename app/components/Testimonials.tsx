@@ -60,7 +60,7 @@ export default function Testimonials() {
     <section
       id="about"
       ref={sectionRef}
-      className="py-24 bg-gradient-to-br from-[var(--cream-bg)] to-white"
+      className="py-24 bg-gradient-to-br from-[var(--white-bg)] to-white"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
@@ -82,7 +82,7 @@ export default function Testimonials() {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[var(--sage-green)] to-[var(--sage-light)] flex items-center justify-center text-white font-bold text-lg">
+                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[var(--royal-blue)] to-[var(--light-blue)] flex items-center justify-center text-white font-bold text-lg">
                   {testimonial.initials}
                 </div>
                 <div>
